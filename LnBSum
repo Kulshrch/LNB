@@ -1,0 +1,26 @@
+
+
+
+a1=int(input("Enter a value:"))
+a2=int(input("Enter 2nd value:"))
+a3=int(input("Enter 3rd value:"))
+a4=int(input("Enter 4th value:"))
+a5=int(input("Enter 5th value:"))
+List= [a1,a2,a3,a4,a5]
+print(List)
+if(a1<=9):
+    List.remove(a1)
+if(a2<=9):
+    List.remove(a2)
+if(a3<=9):
+    List.remove(a3)
+if(a4<=9):
+    List.remove(a4)
+if(a5<=9):
+    List.remove(a5)
+print(sum(List))    
+
+
+
+
+
